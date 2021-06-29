@@ -1,0 +1,93 @@
+.custom-navbar {
+    box-shadow: 0px 0px 5px 1px #b7b7b7;
+    background-color: #ffffff !important;
+    height: 70px !important;
+}
+
+.search-box {
+    position: relative;
+    width: 13rem;
+    font-size: .83333rem;
+}
+
+.search-box .search-box-icon {
+    position: absolute;
+    color: #b6c1d2;
+    top: 50%;
+    left: .9rem;
+    transform: translateY(-48%)
+}
+
+.search-box .search-input {
+    padding-left: 2rem;
+    border-radius: 50rem;
+    box-shadow: none;
+    background: #f3f3f3 !important;
+    font-size: 14px;
+}
+
+#profile img {
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.sidebarContainer {
+    margin-top: 1px;
+    border-radius: 10px;
+    background: #ffffff;
+    width: 100px;
+    position: fixed;
+    height: 100vh;
+    transition: all 0.5s ease;
+    left: 0;
+}
+
+.close {
+    left: -100%;
+    transition: all 0.5s ease;
+    z-index: 1;
+}
+
+a {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+.sidebarContainer p {
+    font-size: 12px;
+}
+
+.sidebarContainer li {
+    width: 100%;
+}
+
+.sidebarContainer li:hover {
+    color: #1698ff;
+    border-left: 2px solid #1698ff;
+}
+
+.custom-title {
+    width: 120px;
+    height: 60px;
+}
+
+.custom-select {
+    font-size: 12px;
+    margin-left: 3px;
+    height: 2rem;
+    border: 1px solid #cacaca;
+    background: #f3f3f3;
+    color: #4c4c4c;
+    padding: 3px;
+}
+
+.custom-text-navbar {
+    font-size: 12px;
+}
+
+.login-button {
+    color: white !important;
+}
+

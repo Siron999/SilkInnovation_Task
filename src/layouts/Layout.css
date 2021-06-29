@@ -1,0 +1,7 @@
+.auth-container{
+    box-shadow: 0px 0px 5px 1px #b7b7b7;
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 40vw !important;
+    height: 70vh !important;
+}
